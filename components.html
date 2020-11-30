@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>My component library</h1>
+    <p>I am learning HTML and CSS and creating the component library to use it my future project and reuse them in future.</p>
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading.</h1>
+    <h2>This is the second biggest heading we can use.</h2>
+    <h6>This is the smallest heading we can use it in the HTML.</h6>
+    <p>This tag is used for the normal text/paragraph.</p>
+    <small>This is small tag which we an use to get text smaller than the paragraph tag.</small>
+    <hr>
+
+    <h2>@containers</h2>
+    <h2>fluid container</h2>
+    <div class="container">This is a fluid container which will go till the end of the page.</div>
+
+    <h2>centered container</h2>
+    <div class="container container-center">Using CSS we can make this come in the given width.</div>
+    <hr>
+    <h2>@links</h2>
+    <a href="/" class="link link-primary">Primary Link</a>
+    <a href="#" class="link link-secondary">Secondary link</a>
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>Un-ordered list.</h3>
+    <ul class="list-non-bullet">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <h3>This is ordered list.</h3>
+    <ul class="list-non-bullet">
+        <li class="list-inline">inlineone</li>
+        <li class="list-inline">inlinetwo</li>
+        <li class="list-inline">inlinethree</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+        <li>milk</li>
+        <li>egg</li>
+        <li>sugar</li>
+    </ol>
+    <hr>
+    <h2>@nav</h2>
+    <nav class="navigation">
+        <div class="nav-brand">Iambrand</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-inline">
+                    <a class="link nav-active" href="#">Home</a>
+                </li>
+                <li class="list-inline">
+                    <a class="link" href="#">Product</a>
+                </li>
+                <li class="list-inline">
+                    <a class="link" href="#">about</a>
+                </li>
+            </ul>
+    </nav>
+    <hr>
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-image" src="images/undraw_version_control.svg" alt="image here">
+        <h1 class="hero-heading">Vishal Pawar <span style="color: var(--primary-color);">the Software Developer</span><header></header></h1>
+    </header>
+    <div style="height: 30vh;"></div>
+    <hr>
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container-center">
+            <h1>white section</h1>
+        <p>This is will have white background</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container-center">
+            <h1>off white section</h1>
+        <p>This will have grey background</p>
+        </div>
+    </section>
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <p>some small heading inside footer</p>
+        <ul class="list-non-bullet">
+            <li class="list-inline">
+                <a class="link" href="#">Linkedin</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="#">Github</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="#">Twitter</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
