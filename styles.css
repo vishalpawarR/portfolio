@@ -4,6 +4,7 @@
      --primary-color: #2563EB;
      --dark-grey: #6B7280;
      --off-white: #F3F4F6;
+     --primary-blue-light: #3B82F6;
 }
 body {
     font-family: "Montserrat",sans-serif;
@@ -98,6 +99,11 @@ hr {
 }
 .section {
     padding: 2rem;
+    /* text-align: center; */
+}
+
+.section a {
+    text-align: center;
 }
 .ow {
     background-color: var(--off-white);
