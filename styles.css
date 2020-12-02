@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-     --primary-color: #2563EB;
-     --dark-grey: #6B7280;
-     --off-white: #F3F4F6;
-     --primary-blue-light: #3B82F6;
+    --primary-color: #2563EB;
+    --dark-grey: #6B7280;
+    --off-white: #F3F4F6;
+    --primary-blue-light: #3B82F6;
 }
+
 body {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     /* color: blue; */
 }
+
 /** explain css box model **/
 
 .container {
@@ -26,6 +28,7 @@ body {
 hr {
     margin: 2rem 0rem;
 }
+
 .link {
     text-decoration: None;
     padding: 0.5rem 1rem;
@@ -92,11 +95,13 @@ hr {
     color: var(--dark-grey);
     text-align: center;
 }
+
 /* section  */
 
 .section h1 {
     text-align: center;
 }
+
 .section {
     padding: 2rem;
     /* text-align: center; */
@@ -105,6 +110,7 @@ hr {
 .section a {
     text-align: center;
 }
+
 .ow {
     background-color: var(--off-white);
 }
@@ -124,4 +130,3 @@ hr {
 .footer ul {
     padding-inline-start: 0%;
 }
-
