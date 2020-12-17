@@ -14,6 +14,7 @@
 body {
     font-family: "Montserrat", sans-serif;
     /* color: blue; */
+    margin: 0;
 }
 
 /** explain css box model **/
