@@ -6,6 +6,7 @@
     --off-white: #F3F4F6;
     --primary-blue-light: #3B82F6;
 }
+
 /* * {
     margin: 0;
     padding: 0;
@@ -135,6 +136,7 @@ hr {
 .footer ul {
     padding-inline-start: 0%;
 }
+
 /* Changes done to make the footer and header */
 /* 
 ul h1 {
