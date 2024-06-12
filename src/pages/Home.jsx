@@ -1,5 +1,9 @@
+import Tweet from "../components/Tweet";
+
 export default function Home() {
     return (
-        <div className="">Home</div>
+        <div className="">
+            <Tweet />
+        </div>
     )
 }
