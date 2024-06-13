@@ -266,3 +266,12 @@ body {
 .footer {
     margin: 30px;
 }
+
+@media (max-width: 500px) {
+    .header {
+        flex-direction: column;
+    }
+    .header  h1 {
+        margin-bottom: 15px;
+    }
+}
