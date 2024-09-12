@@ -15,9 +15,9 @@ export default function Nav() {
                     <img className='absolute left-8 -top-11 rounded-full w-20 md:w-32 md:-top-16 block border-4 border-white' src="./profile.webp" alt="Profile pic" />
                 </div>
                 <div className="flex justify-end my-4">
-                    <Link className='flex font-bold bg-blue-600 border-blue-600 border-4 rounded-full py-2 px-6 hover:border-white'>Resume
-                    <DocumentIcon className='w-5 ml-1' style={{ strokeWidth: 3 }} />
-                    </Link>
+                    <a target='_blank' href='./resume/resume.pdf' className='flex font-bold bg-blue-600 border-blue-600 border-4 rounded-full py-2 px-6 hover:border-white'>Resume
+                        <DocumentIcon className='w-5 ml-1' style={{ strokeWidth: 3 }} />
+                    </a>
                 </div>
                 <h2 className='text-4xl font-bold'>Vishal Pawar</h2> {/* Try adding the tick mark sing near the name */}
                 <p className='mb-2'>Brings ideas to life with code! ✨</p>
