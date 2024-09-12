@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 //Pages
 import Home from "./pages/Home"
 import Resume from "./pages/Resume"
+import Links from "./pages/Links"
 
 //Layout
 import AppLayout from "./layout/AppLayout"
@@ -19,8 +20,8 @@ const router = createBrowserRouter([
         index: true,
       },
       {
-        path: "Resume",
-        element: <Resume />,
+          path: 'links',
+          element: <Links />
       },
       {
         path: "*",
