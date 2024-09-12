@@ -2,7 +2,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 //Pages
 import Home from "./pages/Home"
-import Resume from "./pages/Resume"
 import Links from "./pages/Links"
 
 //Layout
