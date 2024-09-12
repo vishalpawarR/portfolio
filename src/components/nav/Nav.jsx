@@ -12,7 +12,7 @@ export default function Nav() {
                 <img src={heroImg} alt="Hero image with my details" />
             <div className="max-w-xl mx-auto">
                 <div className='relative'>
-                    <img className='absolute left-8 -top-11 rounded-full w-20 md:w-32 md:-top-16 block border-4 border-white' src="https://jhey.dev/media/image/enhanced/headshot-200x200.avif" alt="Profile pic" />
+                    <img className='absolute left-8 -top-11 rounded-full w-20 md:w-32 md:-top-16 block border-4 border-white' src="./profile.webp" alt="Profile pic" />
                 </div>
                 <div className="flex justify-end my-4">
                     <Link className='flex font-bold bg-blue-600 border-blue-600 border-4 rounded-full py-2 px-6 hover:border-white'>Resume
