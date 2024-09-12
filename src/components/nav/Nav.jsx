@@ -3,7 +3,6 @@ import heroImg from '../../assets/hero-img.jpeg'
 import { DocumentIcon, LinkIcon } from '@heroicons/react/24/outline'
 import { BriefcaseIcon } from '@heroicons/react/24/solid'
 import { CakeIcon } from '@heroicons/react/24/solid'
-import { CalendarDaysIcon } from '@heroicons/react/24/solid'
 
 export default function Nav() {
   return (
@@ -20,8 +19,8 @@ export default function Nav() {
                     </a>
                 </div>
                 <h2 className='text-4xl font-bold'>Vishal Pawar</h2> {/* Try adding the tick mark sing near the name */}
-                <p className='mb-2'>Brings ideas to life with code! ✨</p>
-                <p className='mb-2 leading-tight'>Senior Web Engineer. Creative Developer. Content Creator. Whimsical Specialist. International Speaker. Ex-Google.</p>
+                <p className='mb-2'>Bringing Figma designs to life with clean, functional UI! ✨</p>
+                <p className='mb-2 leading-tight'>Web Developer | Building with React.js | Formerly at Empower School of Health.</p>
                 <div className='flex text-[#868e96] mb-4'>
                     <p className='flex mr-4'>
                         <BriefcaseIcon className='w-5 mr-2' />
@@ -37,17 +36,6 @@ export default function Nav() {
                     <p className='flex mr-4'>
                         <CakeIcon className='w-5 mr-2' /> August 8th
                     </p>
-                    <p className='flex mr-4'>
-                        <CalendarDaysIcon className='w-5 mr-2' />
-                        Joined
-                    </p>
-                </div>
-                <div>Keep up to date with my latest projects and adventures follow me now Link this to the foller</div>
-                <div>
-                    <NavLink>Feed</NavLink>
-                    <NavLink>About</NavLink>
-                    <NavLink>Content</NavLink>
-                    <NavLink>Guestbook</NavLink>
                 </div>
             </div>
         </div>
