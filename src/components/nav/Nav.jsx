@@ -28,7 +28,11 @@ export default function Nav() {
                         Available
                     </p>
                     <p className='flex mr-4 text-blue-400 font-bold'>
-                        <LinkIcon className='w-5 mr-2' /> <span className='hover:text-white'>/links</span>
+                        <Link to='/links' className='flex hover:underline'>
+                            <LinkIcon className='w-5 mr-2' /> <span className='hover:text-white'>
+                                /links
+                            </span>
+                        </Link>
                     </p>
                     <p className='flex mr-4'>
                         <CakeIcon className='w-5 mr-2' /> August 8th
