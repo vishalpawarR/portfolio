@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/hire-email"
+  to = "/?utm_source=email&utm_medium=direct&utm_campaign=job_application&utm_content=recruiter"
+  status = 301
+
+[[redirects]]
+  from = "/hire-linkedin"
+  to = "/?utm_source=linkedin&utm_medium=social&utm_campaign=job_application&utm_content=linkedin_message"
+  status = 301
+
+[[redirects]]
+  from = "/hire-whatsapp"
+  to = "/?utm_source=whatsapp&utm_medium=social&utm_campaign=job_application&utm_content=personal_message"
+  status = 301
