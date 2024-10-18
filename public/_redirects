@@ -1,1 +1,4 @@
 /*    /index.html   200
+/hire-email /?utm_source=email&utm_medium=direct&utm_campaign=job_application&utm_content=recruiter 301
+/hire-linkedin /?utm_source=linkedin&utm_medium=social&utm_campaign=job_application&utm_content=linkedin_message 301
+/hire-whatsapp /?utm_source=whatsapp&utm_medium=social&utm_campaign=job_application&utm_content=personal_message 301
