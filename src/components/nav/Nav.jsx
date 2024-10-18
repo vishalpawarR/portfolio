@@ -39,8 +39,8 @@ export default function Nav() {
             Bringing Figma designs to life with clean, functional UI! ✨
           </p>
           <p className="mb-2 leading-tight">
-            Web Developer | Building with React.js | Formerly at Empower School
-            of Health.
+            Frontend Developer | React.js ⚛️ | Next.js | TypeScript | Formerly
+            at Empower School of Health.
           </p>
           <div className="flex text-[#868e96] mb-4">
             <p className="flex mr-4">
