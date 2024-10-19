@@ -1,7 +1,11 @@
 import { Helmet } from "react-helmet"
 
 // eslint-disable-next-line react/prop-types
-const MetaTags = ({ title, description, image, url }) => {
+const MetaTags = ({ title }) => {
+  const image = "https://vishalpawar.netlify.app/hero-img.png"
+  const url = "https://vishalpawar.netlify.app/"
+  const description =
+    "Vishal Pawar is a versatile Software Engineer with over three years of experience in developing innovative web applications across various technologies. Proficient in JavaScript, TypeScript, and SQL, he possesses strong knowledge of React.js, TypeScript and Next.js, alongside expertise in GraphQL and other modern web technologies. With a proven track record of optimizing performance, mentoring junior developers, and collaborating with cross-functional teams, Vishal is dedicated to delivering seamless user experiences. He is committed to implementing responsive design and adhering to best practices in software development."
   return (
     <Helmet>
       <title>{title}</title>
