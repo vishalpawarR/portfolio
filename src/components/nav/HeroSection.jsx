@@ -1,6 +1,5 @@
-import { Link, NavLink } from "react-router-dom"
 import heroImg from "../../assets/hero-img.png"
-import { DocumentIcon, LinkIcon } from "@heroicons/react/24/outline"
+import { DocumentIcon } from "@heroicons/react/24/outline"
 import { BriefcaseIcon } from "@heroicons/react/24/solid"
 import { CakeIcon } from "@heroicons/react/24/solid"
 
