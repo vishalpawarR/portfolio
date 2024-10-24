@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <footer
       id="footer"
-      className="flex flex-col justify-center items-center h-24"
+      className="group flex flex-col justify-center items-center h-24"
     >
       <div className="flex flex-col items-center">
-        <div className="footer-highlight w-64 border-solid border-b-2  mb-2 transition-all duration-300 ease-in-out"></div>
+        <div className="footer-highlight w-64 border-solid border-b-2  mb-2 transition-all duration-300 ease-in-out group-hover:border-blue-400 group-hover:animate-pulse group-hover:w-20"></div>
         <h2 className="">Get in Touch</h2>
       </div>
       <div className="flex pb-4">

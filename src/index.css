@@ -5,7 +5,3 @@
 html {
   @apply text-white bg-[#16191D] scroll-smooth;
 }
-
-#footer:hover .footer-highlight {
-  @apply border-blue-400 animate-pulse w-20;
-}
