@@ -4,7 +4,7 @@ import { DocumentIcon, LinkIcon } from "@heroicons/react/24/outline"
 import { BriefcaseIcon } from "@heroicons/react/24/solid"
 import { CakeIcon } from "@heroicons/react/24/solid"
 
-export default function Nav() {
+export default function HeroSection() {
   return (
     <div>
       <div className="nav-container">
@@ -42,19 +42,10 @@ export default function Nav() {
             Frontend Developer | React.js ⚛️ | Next.js | TypeScript | Formerly
             at Empower School of Health.
           </p>
-          <div className="flex text-[#868e96] mb-4">
+          <div className="flex text-[#868e96] mb-4 border-dotted border-b-[1px] pb-4 border-gray-500">
             <p className="flex mr-4">
               <BriefcaseIcon className="w-5 mr-2" />
               Available
-            </p>
-            <p className="flex mr-4 text-blue-400 font-bold">
-              <Link
-                to="/links"
-                className="flex hover:underline"
-              >
-                <LinkIcon className="w-5 mr-2" />{" "}
-                <span className="hover:text-white">/links</span>
-              </Link>
             </p>
             <p className="flex mr-4">
               <CakeIcon className="w-5 mr-2" /> August 8th
