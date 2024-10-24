@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 html {
-    @apply text-white bg-[#16191D];
+  @apply text-white bg-[#16191D] scroll-smooth;
 }
