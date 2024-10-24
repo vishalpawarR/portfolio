@@ -23,6 +23,7 @@ export default function HeroSection() {
             <div className="flex justify-end my-4">
               <a
                 target="_blank"
+                title="👁️ View | ⬇️ Download"
                 href="./resume/Vishal-Pawar-CV.pdf"
                 className="group flex font-bold bg-blue-600 border-blue-600 border-4 rounded-full py-2 px-6 hover:border-white"
               >

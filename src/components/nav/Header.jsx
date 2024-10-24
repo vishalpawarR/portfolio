@@ -18,6 +18,7 @@ export default function Header() {
           <a
             className="text-xl text-blue-400 font-bold hover:text-white"
             href="#footer"
+            title="Click to Find My Contact Info Below 👇"
           >
             <span className="hover:underline hover:decoration-blue-400">
               Hire Me
