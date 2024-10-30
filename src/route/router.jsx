@@ -154,24 +154,26 @@ export const router = createBrowserRouter([
         ),
       },
       // Direct links to profiles and resume
-      // {
-      //   path: "resume",
-      //   element: (
-      //     <Navigate
-      //       to="/resume/Vishal-Pawar-CV.pdf"
-      //       replace
-      //     />
-      //   ),
-      // },
-      // {
-      //   path: "cv",
-      //   element: (
-      //     <Navigate
-      //       to="/resume/Vishal-Pawar-CV.pdf"
-      //       replace
-      //     />
-      //   ),
-      // },
+      {
+        path: "resume",
+        element: (
+          <Navigate
+            to="/resume/Vishal-Pawar-CV.pdf"
+            replace
+            target="_blank" // Add this to open in new tab
+            rel="noopener noreferrer" // Add security attributes
+          />
+        ),
+      },
+      {
+        path: "cv",
+        element: (
+          <Navigate
+            to="/resume/Vishal-Pawar-CV.pdf"
+            replace
+          />
+        ),
+      },
       // {
       //   path: "linkedin",
       //   element: (
