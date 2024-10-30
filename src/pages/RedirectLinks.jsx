@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import MetaTags from "../components/MetaTags"
 
 const redirectLinks = [
   {
@@ -90,6 +91,8 @@ const redirectLinks = [
 function RedirectLinks() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+      <MetaTags title="Apply Job - Vishal Pawar" />
+
       {redirectLinks.map((link) => (
         <Link
           key={link.path}
