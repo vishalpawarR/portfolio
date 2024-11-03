@@ -7,7 +7,7 @@ export default {
         "spin-slow": "spin 3s linear infinite",
       },
       colors: {
-        "surface-alpha": "hsl(var(--gray-10-hsl) / 65%)",
+        "surface-alpha": "hsl(var(--gray-10-hsl) / 75%)",
       },
     },
   },
