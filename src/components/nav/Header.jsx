@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 
 export default function Header() {
   return (
-    <header className="h-20 flex items-center">
+    <header className="h-20 flex items-center bg-surface-alpha sticky top-0 left-0 z-10">
       <nav className="flex w-full px-6 items-center">
         <NavLink
           to="/"
@@ -16,14 +16,11 @@ export default function Header() {
         </NavLink>
         <div>
           <a
-            className="text-xl text-blue-400 font-bold hover:text-white"
+            className="group flex font-bold border-4 rounded-full py-2 px-6 hover:border-blue-600 hover:underline hover:decoration-blue-400"
             href="#footer"
-            title="Click to Find My Contact Info Below 👇"
+            title="Contact Details"
           >
-            <span className="hover:underline hover:decoration-blue-400">
-              Hire Me
-            </span>{" "}
-            💼
+            <span>Connect</span>{" "}
           </a>
         </div>
       </nav>

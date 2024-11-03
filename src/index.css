@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --gray-10-hsl: 214 14% 10%;
+  --surface-alpha: hsl(var(--gray-10-hsl) / 65%);
+}
+
 html {
   @apply text-white bg-[#16191D] scroll-smooth;
+  height: -webkit-fill-available;
+}
+
+body {
+  height: -webkit-fill-available;
 }

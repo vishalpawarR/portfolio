@@ -8,6 +8,9 @@ export default {
       animation: {
         "spin-slow": "spin 3s linear infinite",
       },
+      colors: {
+        "surface-alpha": "hsl(var(--gray-10-hsl) / 65%)",
+      },
     },
   },
   plugins: [],
