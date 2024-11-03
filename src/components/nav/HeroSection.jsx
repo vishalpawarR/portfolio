@@ -1,5 +1,6 @@
 import heroImg from "../../assets/hero-img.png"
 import { DocumentIcon } from "@heroicons/react/24/outline"
+import { CheckBadgeIcon } from "@heroicons/react/24/solid"
 import { BriefcaseIcon } from "@heroicons/react/24/solid"
 import { CakeIcon } from "@heroicons/react/24/solid"
 
@@ -23,7 +24,7 @@ export default function HeroSection() {
             <div className="flex justify-end my-4">
               <a
                 target="_blank"
-                title="👁️ View | ⬇️ Download"
+                title="View | Download CV"
                 href="./resume/Vishal-Pawar-CV.pdf"
                 className="group flex font-bold bg-blue-600 border-blue-600 border-4 rounded-full py-2 px-6 hover:border-white"
               >
@@ -35,23 +36,29 @@ export default function HeroSection() {
               </a>
             </div>
           </div>
-          <h2 className="text-4xl font-bold">Vishal Pawar</h2>{" "}
-          {/* Try adding the tick mark sing near the name */}
-          <p className="mb-2">
-            Bringing Figma designs to life with clean, functional UI! ✨
-          </p>
-          <p className="mb-2 leading-tight">
-            Frontend Developer | React.js ⚛️ | Next.js | TypeScript | Formerly
-            at Empower School of Health.
-          </p>
-          <div className="flex text-[#868e96] mb-4 border-dotted border-b-[1px] pb-4 border-gray-500">
-            <p className="flex mr-4">
-              <BriefcaseIcon className="w-5 mr-2" />
-              Available
+          <div className="flex flex-col gap-2">
+            <div className="flex items-center">
+              <h1 className="text-2xl font-bold">Vishal Pawar</h1>{" "}
+              <div>
+                <CheckBadgeIcon className="w-6 ml-1 mt-1 text-blue-600" />
+              </div>
+            </div>
+            <p className="leading-tight italic">
+              Software Developer | MERN Stack Developer
             </p>
-            <p className="flex mr-4">
-              <CakeIcon className="w-5 mr-2" /> August 8th
+            <p>
+              I’m a Frontend Developer with 3 years of experience, passionate
+              about building interactive UIs. My focus is on React (Next.js)
             </p>
+            <div className="flex text-[#868e96] mb-4 border-dotted border-b-[1px] pb-4 border-gray-500">
+              <p className="flex mr-4">
+                <BriefcaseIcon className="w-5 mr-2" />
+                Available
+              </p>
+              <p className="flex mr-4">
+                <CakeIcon className="w-5 mr-2" /> August 8th
+              </p>
+            </div>
           </div>
         </div>
       </div>

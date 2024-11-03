@@ -1,58 +1,34 @@
 export default function Tweet() {
   return (
-    <div className="flex gap-2 max-w-xl mx-auto p-4 hover:bg-[#212529]">
-      <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center">
-        <img
-          className="w-10 h-10 rounded-full border-2"
-          src="./profile.webp"
-          alt=""
-        />
+    <div className="flex flex-col max-w-xl mx-auto p-4 hover:bg-[#212529]">
+      <div className="flex-shrink-0 flex items-center">
+        <div>
+          <img
+            className="w-10 h-10 rounded-full border-2"
+            src="./profile.webp"
+            alt=""
+          />
+        </div>
+        <div>
+          <p className="pl-2 text-base font-semibold mt-1">
+            <span>Vishal</span> ✨
+          </p>
+        </div>
       </div>
-      <div>
-        <p className="text-base font-semibold mt-1">
-          <span className="hover:underline">Vishal</span> ✨
+      <div className="px-12 flex gap-3 flex-col">
+        <h2 className="text-xl font-bold text-white">Hello World!</h2>
+        <p>
+          This is My Site to showcases my journey and skills as a developer and
+          highlights the projects I’ve worked on, especially with React,
+          TypeScript, Express, MongoDB, and Redux.
         </p>
-        <h2 className="text-xl font-bold text-white mb-3">
-          Key Contributions and Achievements
-        </h2>
-        <ul className="list-disc pl-5">
-          <li className="mb-2">
-            <strong>
-              3 years of experience in the development, design, and testing
-              phases of web applications:
-            </strong>{" "}
-            Leveraged React.js and TypeScript to build responsive,
-            high-performance user interfaces.
-          </li>
-          <li className="mb-2">
-            <strong>
-              Strong expertise in React.js, Next.js, TypeScript, and JavaScript
-              ES6+:
-            </strong>{" "}
-            Focused on building responsive, high-performance user interfaces.
-          </li>
-          <li className="mb-2">
-            <strong>Proficient in performance optimization techniques:</strong>{" "}
-            Utilized useMemo, useCallback, and React.memo to reduce re-renders
-            and enhance app performance.
-          </li>
-          <li className="mb-2">
-            <strong>
-              Hands-on experience with state management libraries:
-            </strong>{" "}
-            Experienced in using Redux and Context API for effective state
-            management.
-          </li>
-          <li className="mb-2">
-            <strong>Expertise in integrating RESTful APIs and GraphQL:</strong>{" "}
-            Facilitated efficient data fetching and seamless communication
-            between client and server.
-          </li>
-          <li className="mb-2">
-            <strong>Good knowledge of TypeScript:</strong> Developed type-safe
-            React components to reduce bugs and improve code quality.
-          </li>
-        </ul>
+        <p>
+          I focus on building interactive UIs with React, working with Express
+          and MongoDB, and managing state with Redux.
+        </p>
+        <p>
+          Connect with me to learn more about what I’m currently working on!
+        </p>
       </div>
     </div>
   )
