@@ -15,8 +15,10 @@ export default function Tweet() {
           </p>
         </div>
       </div>
-      <div className="px-12 flex gap-3 flex-col">
-        <h2 className="text-xl font-bold text-white">Hello World!</h2>
+      <div className="md:px-12 flex gap-3 flex-col">
+        <h2 className="mt-3 md:mt-0 text-xl font-bold text-white">
+          Hello World!
+        </h2>
         <p>
           This is My Site to showcases my journey and skills as a developer and
           highlights the projects I’ve worked on, especially with React,
