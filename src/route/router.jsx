@@ -145,6 +145,15 @@ export const router = createBrowserRouter([
         ),
       },
       {
+        path: "hire-cuvette",
+        element: (
+          <Navigate
+            to="/?utm_source=cuvette&utm_medium=job_board&utm_campaign=job_application&utm_content=job_listing"
+            replace
+          />
+        ),
+      },
+      {
         path: "hire-github",
         element: (
           <Navigate
