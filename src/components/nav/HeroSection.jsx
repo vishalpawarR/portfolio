@@ -43,20 +43,21 @@ export default function HeroSection() {
                 <CheckBadgeIcon className="w-6 ml-1 mt-1 text-blue-600" />
               </div>
             </div>
-            <p className="leading-tight italic">
+            <p className="leading-tight italic text-sm font-semibold">
               Software Developer | MERN Stack Developer
             </p>
             <p>
               I’m a Frontend Developer with 3 years of experience, passionate
               about building interactive UIs. My focus is on React (Next.js)
             </p>
-            <div className="flex text-[#868e96] mb-4 border-dotted border-b-[1px] pb-4 border-gray-500">
+            <div className="flex text-[#868e96] mb-4 border-dotted border-b-[1px] pb-4 border-gray-500  text-sm">
               <p className="flex mr-4">
                 <BriefcaseIcon className="w-5 mr-2" />
                 Available
               </p>
               <p className="flex mr-4">
-                <CakeIcon className="w-5 mr-2" /> August 8th
+                <CakeIcon className="w-5 mr-2" /> August, 8
+                <sup className="mt-3">th</sup>
               </p>
             </div>
           </div>
