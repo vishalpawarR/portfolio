@@ -145,6 +145,15 @@ export const router = createBrowserRouter([
         ),
       },
       {
+        path: "hire-github",
+        element: (
+          <Navigate
+            to="/?utm_source=github&utm_medium=github_profile&utm_campaign=lets_connect&utm_content=readme_connect"
+            replace
+          />
+        ),
+      },
+      {
         path: "hire-reactflux",
         element: (
           <Navigate
