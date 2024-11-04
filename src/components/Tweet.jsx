@@ -15,18 +15,16 @@ export default function Tweet() {
           </p>
         </div>
       </div>
-      <div className="md:px-12 flex gap-3 flex-col">
+      <div className="md:px-12 flex gap-3 flex-col leading-loose">
         <h2 className="mt-3 md:mt-0 text-xl font-bold text-white">
           Hello World!
         </h2>
         <p>
-          This is My Site to showcases my journey and skills as a developer and
-          highlights the projects I’ve worked on, especially with React,
-          TypeScript, Express, MongoDB, and Redux.
-        </p>
-        <p>
-          I focus on building interactive UIs with React, working with Express
-          and MongoDB, and managing state with Redux.
+          I’m Vishal, with expertise in React.js, Tailwind CSS, and TypeScript,
+          skilled in creating visually engaging and optimized user interfaces
+          that deliver a seamless user experience. My experience extends to
+          implementing efficient state management with Redux, crafting type-safe
+          components, and improving code reliability and maintainability.
         </p>
         <p>
           Connect with me to learn more about what I’m currently working on!
