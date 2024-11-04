@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import { DocumentIcon } from "@heroicons/react/24/outline"
 
 export default function Header() {
   return (
@@ -14,13 +15,18 @@ export default function Header() {
             alt=""
           />
         </NavLink>
-        <div>
+        <div className="flex justify-end my-4">
           <a
-            className="group flex font-bold border-4 rounded-full py-2 px-6 hover:border-blue-600 hover:underline hover:decoration-blue-400"
-            href="#footer"
-            title="Contact Details"
+            target="_blank"
+            title="View | Download CV"
+            href="./resume/Vishal-Pawar-CV.pdf"
+            className="group flex font-bold bg-blue-600 border-blue-600 border-4 rounded-full py-2 px-6 hover:border-white"
           >
-            <span>Connect</span>{" "}
+            Resume
+            <DocumentIcon
+              className="w-5 ml-1 group-hover:animate-bounce"
+              style={{ strokeWidth: 3 }}
+            />
           </a>
         </div>
       </nav>
