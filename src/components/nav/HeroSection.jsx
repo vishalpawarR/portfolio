@@ -1,8 +1,8 @@
 import heroImg from "../../assets/hero-img.png"
-import { DocumentIcon } from "@heroicons/react/24/outline"
 import { CheckBadgeIcon } from "@heroicons/react/24/solid"
-import { BriefcaseIcon } from "@heroicons/react/24/solid"
-import { CakeIcon } from "@heroicons/react/24/solid"
+import { MapPinIcon } from "@heroicons/react/24/solid"
+import { AtSymbolIcon } from "@heroicons/react/24/solid"
+import { DevicePhoneMobileIcon } from "@heroicons/react/24/solid"
 
 export default function HeroSection() {
   return (
@@ -23,16 +23,11 @@ export default function HeroSection() {
             </div>
             <div className="flex justify-end my-4">
               <a
-                target="_blank"
-                title="View | Download CV"
-                href="./resume/Vishal-Pawar-CV.pdf"
-                className="group flex font-bold bg-blue-600 border-blue-600 border-4 rounded-full py-2 px-6 hover:border-white"
+                className="group flex font-bold border-4 rounded-full py-2 px-6 hover:border-blue-600 hover:underline hover:decoration-blue-400"
+                href="#footer"
+                title="Contact Details"
               >
-                Resume
-                <DocumentIcon
-                  className="w-5 ml-1 group-hover:animate-bounce"
-                  style={{ strokeWidth: 3 }}
-                />
+                <span>Connect</span>{" "}
               </a>
             </div>
           </div>
@@ -47,17 +42,23 @@ export default function HeroSection() {
               Software Developer | MERN Stack Developer
             </p>
             <p>
-              I’m a Frontend Developer with 3 years of experience, passionate
-              about building interactive UIs. My focus is on React (Next.js)
+              I enjoy building web applications and learning new technologies.
             </p>
             <div className="flex text-[#868e96] mb-4 border-dotted border-b-[1px] pb-4 border-gray-500  text-sm">
-              <p className="flex mr-4">
+              {/* <p className="flex mr-4">
                 <BriefcaseIcon className="w-5 mr-2" />
                 Available
+              </p> */}
+              <p className="flex mr-4">
+                <MapPinIcon className="w-5 mr-2" /> Bangalore, Karnataka, India
               </p>
               <p className="flex mr-4">
-                <CakeIcon className="w-5 mr-2" /> August, 8
-                <sup className="mt-3">th</sup>
+                <AtSymbolIcon className="w-5 mr-2" />{" "}
+                <a href="mailto:vishalpawarr.git@gmail.com">Email me</a>
+              </p>
+              <p className="flex mr-4">
+                <DevicePhoneMobileIcon className="w-5 mr-2" />{" "}
+                <a href="tel:+91-7411334439">Contact me</a>
               </p>
             </div>
           </div>
