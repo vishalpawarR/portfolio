@@ -49,16 +49,26 @@ export default function HeroSection() {
                 <BriefcaseIcon className="w-5 mr-2" />
                 Available
               </p> */}
-              <p className="flex mr-4">
-                <MapPinIcon className="w-5 mr-2" /> Bangalore, Karnataka, India
+              <p className="flex items-center mr-4">
+                <MapPinIcon className="w-5 mr-2" /> Bangalore, India
               </p>
-              <p className="flex mr-4">
+              <p className="flex items-center mr-4">
                 <AtSymbolIcon className="w-5 mr-2" />{" "}
-                <a href="mailto:vishalpawarr.git@gmail.com">Email me</a>
+                <a
+                  href="mailto:vishalpawarr.git@gmail.com"
+                  title="Email me"
+                >
+                  Email
+                </a>
               </p>
-              <p className="flex mr-4">
+              <p className="flex items-center mr-4">
                 <DevicePhoneMobileIcon className="w-5 mr-2" />{" "}
-                <a href="tel:+91-7411334439">Contact me</a>
+                <a
+                  href="tel:+91-7411334439"
+                  title="Mobile number"
+                >
+                  Contact
+                </a>
               </p>
             </div>
           </div>
