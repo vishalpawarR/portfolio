@@ -1,25 +1,34 @@
 export default function Skills() {
   const skills = [
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "Bootstrap",
-    "REST API",
-    "Responsiveness",
-    "VS Code",
-    "Git",
-    "GitHub",
-    "GitHub Desktop",
-    "TypeScript",
-    "Redux",
-    "Express",
-    "Node.js",
-    "JavaScript",
+    "React.js",
     "Next.js",
-    "SCSS",
-    "Figma",
+    "Tailwind CSS",
+    "TypeScript",
+    "React Redux",
+    "Redux Toolkit",
+    "JavaScript",
+    "Jest",
+    "React Testing Library",
+    "React Router",
+    "React Context API",
+    "React Hooks",
+    "React Hook Form",
     "MongoDB",
     "GraphQL",
+    "Node.js",
+    "REST API",
+    "Express.js",
+    "Postman",
+    "Git",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Responsiveness",
+    "VS Code",
+    "GitHub",
+    "GitHub Desktop",
+    "SCSS",
+    "Figma",
     "Firebase",
     "Firestore",
     "Netlify",
@@ -35,7 +44,7 @@ export default function Skills() {
             key={`${skill}-${index}`}
             className="flex-none px-4 py-2 rounded-full text-white transition-all duration-200 border border-gray-500 hover:bg-[#212529] cursor-default hover:border-white"
           >
-            {skill}
+            {index < 4 ? <span className="font-bold">{skill}</span> : skill}
           </button>
         ))}
       </div>
