@@ -1,6 +1,6 @@
 export default function Tweet() {
   return (
-    <div className="flex flex-col max-w-xl mx-auto p-4 hover:bg-[#212529]">
+    <div className="flex flex-col max-w-xl mx-auto p-4 hover:bg-[#212529] transition-colors duration-300  ease-in-out">
       <div className="flex-shrink-0 flex items-center">
         <div>
           <img
@@ -20,14 +20,14 @@ export default function Tweet() {
           Hello World!
         </h2>
         <p>
-          I’m Vishal, with expertise in React.js, Tailwind CSS, and TypeScript,
+          I'm Vishal, with expertise in React.js, Tailwind CSS, and TypeScript,
           skilled in creating visually engaging and optimized user interfaces
           that deliver a seamless user experience. My experience extends to
           implementing efficient state management with Redux, crafting type-safe
           components, and improving code reliability and maintainability.
         </p>
         <p>
-          Connect with me to learn more about what I’m currently working on!
+          Connect with me to learn more about what I'm currently working on!
         </p>
       </div>
     </div>
