@@ -1,8 +1,14 @@
 import heroImg from "../../assets/hero-img.png"
-import { CheckBadgeIcon } from "@heroicons/react/24/solid"
-import { MapPinIcon } from "@heroicons/react/24/solid"
-import { AtSymbolIcon } from "@heroicons/react/24/solid"
-import { DevicePhoneMobileIcon } from "@heroicons/react/24/solid"
+import {
+  BriefcaseIcon,
+  CheckBadgeIcon,
+  CalendarDaysIcon,
+  MapPinIcon,
+  AtSymbolIcon,
+  DevicePhoneMobileIcon,
+} from "@heroicons/react/24/solid"
+import { TbBrandGithubFilled, TbBrandWhatsapp } from "react-icons/tb"
+import { FaTwitter, FaLinkedinIn } from "react-icons/fa"
 
 export default function HeroSection() {
   return (
@@ -13,7 +19,7 @@ export default function HeroSection() {
           alt="Hero image with my details"
         />
         <div className="max-w-xl mx-auto">
-          <div className="flex md:block my-4">
+          <div className="flex md:block my-4 md:pb-12">
             <div className="relative mr-auto">
               <img
                 className="md:absolute left-8 -top-14 rounded-full w-20 md:w-32 md:-top-20 block border-4 border-white"
@@ -21,17 +27,8 @@ export default function HeroSection() {
                 alt="Profile pic"
               />
             </div>
-            <div className="flex justify-end my-4">
-              <a
-                className="group flex font-bold border-4 rounded-full py-2 px-6 hover:border-blue-600 hover:underline hover:decoration-blue-400"
-                href="#footer"
-                title="Contact Details"
-              >
-                <span>Connect</span>{" "}
-              </a>
-            </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-3">
             <div className="flex items-center">
               <h1 className="text-2xl font-bold">Vishal Pawar</h1>{" "}
               <div>
@@ -42,34 +39,122 @@ export default function HeroSection() {
               Software Developer | MERN Stack Developer
             </p>
             <p>
-              I enjoy building web applications and learning new technologies.
+              Building an <strong>e-commerce</strong> platform for the{" "}
+              <strong>New Jersey, USA</strong> based startup NinetyNineTech
+              using the MERN stack.
             </p>
-            <div className="flex text-[#868e96] mb-4 border-dotted border-b-[1px] pb-4 border-gray-500  text-sm">
-              {/* <p className="flex mr-4">
-                <BriefcaseIcon className="w-5 mr-2" />
-                Available
+            <div className="flex text-sm flex-wrap md:flex-nowrap gap-1 md:justify-start justify-center items-center w-full border-b-[1px] border-b-solid border-gray-500 pb-4 mb-4">
+              <p className="font-semibold">Contact me:</p>
+              {/* <p className="flex py-2 px-2 rounded-md hover:px-4 hover:bg-[#495057] hover:text-white transition-all duration-300 ease-in-out group">
+                <BriefcaseIcon className="w-5 text-[#868e96] group-hover:text-white transition-colors duration-300 ease-in-out" />
+                <span className="max-w-0 overflow-hidden md:whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out">
+                  Available
+                </span>
               </p> */}
-              <p className="flex items-center mr-4">
-                <MapPinIcon className="w-5 mr-2" /> Bangalore, India
-              </p>
-              <p className="flex items-center mr-4">
-                <AtSymbolIcon className="w-5 mr-2" />{" "}
+              <div className="flex py-2 px-2 rounded-md hover:px-4 hover:bg-[#495057] hover:text-white transition-all duration-300 ease-in-out group">
+                <MapPinIcon className="w-5 text-[#868e96] group-hover:text-white transition-colors duration-300 ease-in-out" />
+                <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out">
+                  Bangalore, India
+                </span>
+              </div>
+              <div>
                 <a
                   href="mailto:vishalpawarr.git@gmail.com"
                   title="Email me"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex py-2 px-2 rounded-md hover:px-4 hover:bg-[#495057] hover:text-white transition-all duration-300 ease-in-out group"
                 >
-                  Email
+                  <AtSymbolIcon className="w-5 text-[#868e96] group-hover:text-white transition-colors duration-300 ease-in-out" />
+                  <span className="max-w-0 overflow-hidden md:whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out">
+                    Email
+                  </span>
                 </a>
-              </p>
-              <p className="flex items-center mr-4">
-                <DevicePhoneMobileIcon className="w-5 mr-2" />{" "}
+              </div>
+              <div>
                 <a
                   href="tel:+91-7411334439"
                   title="Mobile number"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex py-2 px-2 rounded-md hover:px-4 hover:bg-[#495057] hover:text-white transition-all duration-300 ease-in-out group"
                 >
-                  Contact
+                  <DevicePhoneMobileIcon className="w-5 text-[#868e96] group-hover:text-white transition-colors duration-300 ease-in-out" />
+                  <span className="max-w-0 overflow-hidden md:whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out">
+                    Contact
+                  </span>
                 </a>
-              </p>
+              </div>
+              <div>
+                <a
+                  href="https://wa.me/+917411334439?Hi Vishal, I saw your profile and would like to discuss job opportunities!"
+                  target="_blank"
+                  title="Connect on Whatsapp"
+                  rel="noopener noreferrer"
+                  className="flex py-2 px-2 rounded-md hover:px-4 hover:bg-[#495057] hover:text-white transition-all duration-300 ease-in-out group"
+                >
+                  <TbBrandWhatsapp className="w-5 h-5 text-[#868e96] group-hover:text-white transition-colors duration-300 ease-in-out" />
+                  <span className="max-w-0 overflow-hidden md:whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out">
+                    Whatsapp
+                  </span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://x.com/VishalPawar_R"
+                  title="Twitter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex py-2 px-2 rounded-md hover:px-4 hover:bg-[#495057] hover:text-white transition-all duration-300 ease-in-out group"
+                >
+                  <FaTwitter className="w-5 h-5 text-[#868e96] group-hover:text-white transition-colors duration-300 ease-in-out" />
+                  <span className="max-w-0 overflow-hidden md:whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out">
+                    Twitter
+                  </span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/vishalpawarr/"
+                  title="LinkedIn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex py-2 px-2 rounded-md hover:px-4 hover:bg-[#495057] hover:text-white transition-all duration-300 ease-in-out group"
+                >
+                  <FaLinkedinIn className="w-5 h-5 text-[#868e96] group-hover:text-white transition-colors duration-300 ease-in-out" />
+                  <span className="max-w-0 overflow-hidden md:whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out">
+                    LinkedIn
+                  </span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://github.com/vishalpawarR/"
+                  title="GitHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex py-2 px-2 rounded-md hover:px-4 hover:bg-[#495057] hover:text-white transition-all duration-300 ease-in-out group"
+                >
+                  <TbBrandGithubFilled className="w-5 h-5 text-[#868e96] group-hover:text-white transition-colors duration-300 ease-in-out" />
+                  <span className="max-w-0 overflow-hidden md:whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out">
+                    Github
+                  </span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://calendly.com/vishalpawarr/30min"
+                  title="Schedule a Call"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex py-2 px-2 rounded-md hover:px-4 hover:bg-[#495057] hover:text-white transition-all duration-300 ease-in-out group"
+                >
+                  <CalendarDaysIcon className="w-5 text-[#868e96] group-hover:text-white transition-colors duration-300 ease-in-out" />
+                  <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out">
+                    Schedule&nbsp;a&nbsp;Call
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
