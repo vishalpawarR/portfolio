@@ -39,9 +39,11 @@ export default function HeroSection() {
               Software Developer | MERN Stack Developer
             </p>
             <p>
-              Building an <strong>e-commerce</strong> platform for the{" "}
-              <strong>New Jersey, USA</strong> based startup NinetyNineTech
-              using the MERN stack.
+              Building an <strong className="italic">e-commerce</strong>{" "}
+              platform for the{" "}
+              <strong className="italic">New Jersey, USA</strong> based startup{" "}
+              <strong className="italic">NinetyNine Tech </strong>
+              using the <strong className="italic">MERN</strong> stack.
             </p>
             <div className="flex text-sm flex-wrap md:flex-nowrap gap-1 md:justify-start justify-center items-center w-full border-b-[1px] border-b-solid border-gray-500 pb-4 mb-4">
               <p className="font-semibold">Contact me:</p>
@@ -87,7 +89,7 @@ export default function HeroSection() {
               </div>
               <div>
                 <a
-                  href="https://wa.me/+917411334439?Hi Vishal, I saw your profile and would like to discuss job opportunities!"
+                  href="https://wa.me/+917411334439?text=Hi%20Vishal,%20I%20am%20coming%20here%20from%20your%20portfolio%20and%20I%20would%20like%20to%20discuss%20about%20an%20opportunity"
                   target="_blank"
                   title="Connect on Whatsapp"
                   rel="noopener noreferrer"
