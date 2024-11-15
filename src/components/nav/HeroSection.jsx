@@ -23,7 +23,7 @@ export default function HeroSection() {
             <div className="relative mr-auto">
               <img
                 className="md:absolute left-8 -top-14 rounded-full w-20 md:w-32 md:-top-20 block border-4 border-white"
-                src="./profile.webp"
+                src="./profile.png"
                 alt="Profile pic"
               />
             </div>

@@ -5,7 +5,7 @@ export default function Tweet() {
         <div>
           <img
             className="w-10 h-10 rounded-full border-2"
-            src="./profile.webp"
+            src="./profile.png"
             alt=""
           />
         </div>
